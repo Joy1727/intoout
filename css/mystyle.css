@@ -1,0 +1,90 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:'Noto Sans', sans-serif;
+}
+
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+body header {
+    margin: 40px 0;
+}
+body header h1 {
+    text-align:center;color:#04AA6D;font-size:32px;
+}
+body header h5 {
+    text-align:center;font-size:18px;
+}
+
+/* Clear floats after columns */
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+    .title{
+        padding:80px 0px;width:100%;background-color:#282A35;color:white; margin: 16px 0;
+    }
+    
+    .title2{
+        float:left;width:50%;text-align:center;
+    }
+    
+    .sub-sub-content{
+        font-size:100px;
+    }
+
+    .title4{
+        font-size:20px;margin-bottom:30px;
+    }
+
+    .title5{
+        border:none;padding:8px 16px;overflow:hidden;text-decoration:none;text-align:center;cursor:pointer;white-space:nowrap;background-color:#04AA6D;color:white;font-size:18px;margin:auto;display:block;width:200px;border-radius:25px;font-weight:700;margin-bottom: 20px;
+    }
+
+    .title6{
+        border:none;padding:8px 16px;overflow:hidden;text-decoration:none;text-align:center;cursor:pointer;white-space:nowrap;background-color:white;color:black;font-size:18px;margin:auto;
+        display:block;width:200px;border-radius:25px;font-weight:700;
+    }
+
+    .title7{
+        float:left;width:50%;text-align:center;
+    }
+
+    .title8{
+        padding:80px 0px;width:100%;background-color:#D9EEE1;color:black; margin: 16px 0;
+    }
+ 
+    .title9{
+        float:left;width:50%;text-align:center;
+    }
+
+    .title10{
+        float:left;width:50%;text-align:center;
+    }
+
+    .title11{
+        font-size:100px;
+    }
+
+    .title12{
+        font-size:20px;margin-bottom:30px;
+    }
+
+    .title13{
+        border:none;padding:8px 16px;overflow:hidden;text-decoration:none;text-align:center;cursor:pointer;white-space:nowrap;background-color:#04AA6D;color:white;font-size:18px;margin:auto;
+            display:block;width:200px;border-radius:25px;font-weight:700;margin-bottom: 20px;
+    }
+
+    .title14{
+        border:none;padding:8px 16px;overflow:hidden;text-decoration:none;text-align:center;cursor:pointer;white-space:nowrap;background-color:black;color:white;font-size:18px;margin:auto;
+            display:block;width:200px;border-radius:25px;font-weight:700;
+    }
+}
